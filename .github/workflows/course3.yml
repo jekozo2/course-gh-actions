@@ -22,6 +22,6 @@ jobs:
           go build
           ls
           go test
-        workflow-directory: upper
+        working-directory: upper
         name: build and test
   
